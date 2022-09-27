@@ -1,9 +1,6 @@
-﻿int[] a = { 3, 6, 8 };
-int[] b = { 2, 1, -7 };
-int x = b[0] - a[0];
-int y = b[1] - a[1];
-int z = b[2] - a[2];
-
+﻿void Distance (int x1, int y1, int z1, int x2, int y2, int z2)
+{
+Console.WriteLine (Math.Sqrt(Math.Pow((x2-x1), 2)+Math.Pow((y2-y1), 2)+Math.Pow((z2-z1), 2)));
+}
 Console.Write("Расстояние между двумя точками в пространстве = ");
-Math.Sqrt(Math.Pow(x, 2)+Math.Pow(y, 2)+Math.Pow(z, 2));
-Console.WriteLine(Math.Sqrt(Math.Pow(x, 2)+Math.Pow(y, 2)+Math.Pow(z, 2)));
+Distance(3,6,8,2,1,-7);
