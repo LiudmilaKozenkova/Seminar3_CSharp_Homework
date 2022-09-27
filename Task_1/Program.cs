@@ -31,8 +31,7 @@ void Fill(int[] array)
         index++;
     }
 }
-
-//5.Распечатать исходный массив
+//4.Распечатать исходный массив
 void Print(int[]array)
 {
     int i =0;
@@ -44,7 +43,7 @@ void Print(int[]array)
     }
 Console.WriteLine(); 
 }
-//4.Метод определения, является ли число палиндромом
+//5.Метод определения, является ли число палиндромом
 void Palindrome (int[] array)
 {
 int[] source = CreateNewArray(5);
